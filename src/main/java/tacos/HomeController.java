@@ -13,4 +13,9 @@ public class HomeController {
     public String home(){
         return "home";
     }
+
+    @GetMapping("/test")
+    public String  testtest(){
+        return "<h1>test</h1>";
+    }
 }
